@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.jest/
+packages/mobile/android/
+packages/mobile/ios/

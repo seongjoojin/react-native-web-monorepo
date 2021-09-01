@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [".*.js", "**/*.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "files": [],
+  "references": [
+    { "path": "./packages/app" },
+    { "path": "./packages/web" },
+    { "path": "./packages/mobile" }
+  ]
+}
